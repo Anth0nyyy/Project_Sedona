@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="js/script.js">
+    <title>Седона</title>
+</head>
+<body>
+    <header class="header">
+        <nav class ="navigation_content">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </div>
+            <div class="title_content">
+                <a href="index.html">Главная</a>
+                <a>О Седоне</a>
+                <a href="catalog.html">Гостиницы</a>
+            </div>
+            <div class="navigation_btn">
+                <div class="searh_favorite">
+                    <div class="searh">
+                        <img src="img/search.svg" alt="search">
+                    </div>
+                    <div class="favorite">
+                        <img src="img/favorite.svg" alt="favorite">
+                        <div class="numeral">
+                            <img src="img/Numeral.png" alt="Numeral">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_title">
+                    <form action="">  
+                        <button class="button">Хочу сюда!</button> 
+                    </form> 
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <main class = main_page_2>
+
+        <div class="filter">
+            <div class="filter_content">
+                <div class="filter_header">
+                    <div class="filter_header_title">Гостиницы Седоны</div>
+                    <div class="filter_header_route">
+                        <div class="filter_home_logo">
+                            <img src="img/home_logo.png" alt="home_logo" class="home_logo">
+                        </div>
+                        <div class="filter_arrow">></div>
+                        <div class="filter_hostel">Гостиницы</div>
+                    </div>
+                </div>
+                <div class="main_filter">
+                    <div class="left">
+                        <div class="infra_and_type">
+                            <p class="text_infra">Инфраструктура:</p>
+                            <div class="infra_description">
+                                <div>
+                                    <input type="checkbox" class="flag">
+                                    <label>Бассейн</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="flag">
+                                    <label>Парковка</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="flag">
+                                    <label>Wi-Fi</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="infra_and_type">
+                            <p class="text_infra">Тип жилья:</p>
+                            <div class="infra_description">
+                                <div>
+                                    <input type="radio" class="flag">
+                                    <label>Гостиница</label>
+                                </div>
+                                <div>
+                                    <input type="radio" class="flag">
+                                    <label>Мотель</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="cb3" class="flag">
+                                    <label>Апартаменты</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="price_sett">
+                            <div class="price">
+                                <span style="font-weight: 700;font-size: 20px;">Стоимость, ₽:</span>
+                                <div class="range_price">
+                                    <input type="text" placeholder="от" class="range_price_setting range_price_sett_1">
+                                    <input type="text" placeholder="до" class="range_price_setting range_price_sett_2">
+                                </div>
+                            </div>
+                            <div class="right_button">
+                                Тут будет ползунок!
+                            </div>
+                        </div>
+                        <div class="btn_right">
+                            <button class="confirm_btn">Применить</button>
+                            <button class="confirm_cancel">Сбросить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="sort">
+                <span class="sort_text">Найдено гостиниц: 38</span>
+                <select class="sort_menu">
+                    <option>Сначала дешевые</option>
+                    <option>Сначала дорогие</option>
+                    <option>Высокий рейтинг</option>
+                    <option>Низкий рейтинг</option>
+                </select>
+                
+                <div class="catalog_sett">
+                    <form action="https://htmlacademy.ru/study"> 
+                        <button class="catalog_btn_sett btn_table">
+                            
+                        </button>
+                    </form>
+                    <form action="https://htmlacademy.ru/study"> 
+                        <button class="catalog_btn_sett btn_slide">
+                            
+                        </button>
+                    </form>
+                    <form action="https://htmlacademy.ru/study"> 
+                        <button class="catalog_btn_sett btn_list">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="hostel_cart">
+                <div class="cart cart1">
+                    <div class="cart_content">
+                        <div class="cart_img">
+                            <img src="img/hotel-1.jpg" alt="hotel-1">
+                        </div>
+                            <h3>Amara Resort & Spa</h3>
+                        <div class="cart_text">
+                            <div class="cart_text_sett">Гостиница</div>
+                            <div class="cart_text_price">От 4000 ₽</div>
+                        </div>
+                        <div class="cart_btn">
+                            <button class="cart_btn_sett" style="background-color: #756157;">Подбробнее</button>
+                            <button class="cart_btn_sett" style="background-color: #82B3D3;">В избранное</button>
+                        </div>
+                        <div class="cart_rating">
+                            <div class="star_rating">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                
+                            </div>
+                            <div class="text_rating">
+                                <span>Рейтинг: 8,5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart cart2">
+                    <div class="cart_content">
+                        <div class="cart_img">
+                            <img src="img/hotel-2.jpg" alt="hotel-1">
+                        </div>
+                            <h3>Villas at Poco Diablo</h3>
+                        <div class="cart_text">
+                            <div class="cart_text_sett">Гостиница</div>
+                            <div class="cart_text_price">От 5000 ₽</div>
+                        </div>
+                        <div class="cart_btn">
+                            <button class="cart_btn_sett" style="background-color: #756157;">Подбробнее</button>
+                            <button class="cart_btn_sett" style="background-color: #82B3D3;">В избранное</button>
+                        </div>
+                        <div class="cart_rating">
+                            <div class="star_rating">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                            </div>
+                            <div class="text_rating">
+                                <span>Рейтинг: 9,2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart cart3">
+                    <div class="cart_content">
+                        <div class="cart_img">
+                            <img src="img/hotel-3.jpg" alt="hotel-1">
+                        </div>
+                            <h3>Desert Quail Inn</h3>
+                        <div class="cart_text">
+                            <div class="cart_text_sett">Гостиница</div>
+                            <div class="cart_text_price">От 2500 ₽</div>
+                        </div>
+                        <div class="cart_btn">
+                            <button class="cart_btn_sett" style="background-color: #756157;">Подбробнее</button>
+                            <button class="cart_btn_sett" style="background-color: #82B3D3;">В избранное</button>
+                        </div>
+                        <div class="cart_rating">
+                            <div class="star_rating">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                            </div>
+                            <div class="text_rating">
+                                <span>Рейтинг: 6,9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart cart4">
+                    <div class="cart_content">
+                        <div class="cart_img">
+                            <img src="img/hotel-4.jpg" alt="hotel-1">
+                        </div>
+                            <h3>GreenTree Inn</h3>
+                        <div class="cart_text">
+                            <div class="cart_text_sett">Гостиница</div>
+                            <div class="cart_text_price">От 1500 ₽</div>
+                        </div>
+                        <div class="cart_btn">
+                            <button class="cart_btn_sett" style="background-color: #756157;">Подбробнее</button>
+                            <button class="cart_btn_sett" style="background-color: #82B3D3;">В избранное</button>
+                        </div>
+                        <div class="cart_rating">
+                            <div class="star_rating">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">      
+                            </div>
+                            <div class="text_rating">
+                                <span>Рейтинг: 5,0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div> 
+            <hr width="87%">
+
+        </div>
+        <div class="pagination">
+            <div class="pagination_left">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">...</a>
+                <a href="#">10</a>
+            </div>
+            <div class="pagination_right">
+                <label>Гостиниц на странице:</label>
+                <select class="pagination_sort_menu">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+        </div>
+        <div class="subscribe_catalog">
+            <div class="subscribe_">Подпишитесь на рассылку</div>
+            <div class="subscibe_text">Только полезная информация и никакого спама,<br> честное бойскаутское!</div>
+            <div class="searh_bar">
+                <input type="text" placeholder="Ваш e-mail" class="email_catalog">
+                <button class="btn_bar_sett">
+                    Подписаться
+                </button>
+                </div> 
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="social_network">
+                <form action="https://vk.com/htmlacademy">  
+                    <button class="social_network_vk">
+                        <img src="/img/VK.svg" alt="VK">
+                    </button>
+                </form>
+                <form action="https://t.me/s/htmlacademy">  
+                    <button class="social_network_vk">
+                        <img src="/img/TG.svg" alt="TG">
+                    </button>
+                </form>
+                <form action="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g">  <!--изменить ссылку--> 
+                    <button class="social_network_vk">
+                        <img src="/img/YOUTUBE.svg" alt="YOUTUBE">
+                    </button>
+                </form>
+            </div>
+            <div class="field_for_number">
+                <span class="number">
+                    +7 (812) 812-12-12
+                </span>
+            </div>
+            <div class="logo_html_academy">
+                <form action="https://htmlacademy.ru/study">  
+                    <button class="htmlacademy">
+                        <img src="/img/HTML Academy.svg" alt="htmlacademy">
+                    </button>
+                </form>  
+            </div>
+        </div>  
+    </footer>

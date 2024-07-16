@@ -1,0 +1,472 @@
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+/* Теги */
+h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+body{
+    font-family: 'PT Sans';
+}
+button{
+  padding: 0;
+  border: 0px;
+}
+input{
+  padding: 0 22px;
+  outline:none;
+  border: 0;
+  box-sizing: border-box
+}
+h1{
+  font-size: 30px;
+}
+div,span{
+  margin: 0;
+  padding: 0;
+}
+select{
+  border: 0;
+}
+ul{
+  padding-left: 0;
+}
+/* Главное окно */
+.main_slide {
+  width: 1200px;
+  height: 485px;
+  background: 
+              url(/img/welcome.svg) no-repeat 50% 11.5%,
+              url(/img/welcome_second.svg) no-repeat 50% 23.5%,
+              url(/img/Sedona.svg) no-repeat 50% 69.5%,
+              url(/img/basement.svg) no-repeat 50% 100%,
+              url(/img/background_page_main.png) no-repeat 50%;
+  
+}
+.description{
+    width: 1200px;
+    height: 282px;
+    text-align: center;
+}
+.text_description_1{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700; 
+    font-size: 30px;
+    width: 637px;
+    height: 72px;
+    margin: auto;
+    margin-top: 63px;
+    flex-direction: column;
+    word-break: break-all;
+    line-height: 36px;
+}
+.text_description_2{
+    display: inline-block;
+    font-weight: 400; 
+    font-size: 22px;
+    width: 654px;
+    height: 26px;
+    color: #333333;
+    white-space: nowrap;
+    margin: auto; 
+    margin-top: 31px;
+}
+/* Грид сетка */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  width: 1200px;
+}
+
+.item {
+  text-align: center;
+}
+.item2 {
+  grid-column: 2 / 4;
+}
+
+.item6 {
+  grid-column: 1 / 3;
+}
+/* Разметка сетки */
+.text_number-1 {
+  background-color: #82B3D3;
+  color: white;
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  height: 384px;
+}
+.first_text {
+  height: auto;
+  overflow: hidden;
+  font-weight: 700; 
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 92px;
+}
+.second_text {
+  text-align: center;
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+}
+.third_text {
+  text-align: center;
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.container_content {
+  display: grid;
+  gap: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  height: 384px;
+}
+
+.container_text {
+  font-weight: 700; 
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.container_photo {
+  margin-top: 80px;
+}
+.container_description {
+  font-weight: 400; 
+  font-size: 18px;
+  margin-bottom: 81px;
+}
+.text_grid_container {
+  background:rgba(131, 179, 211, 0.12);
+  color: black;
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  height: 384px;
+}
+.first_text_grid_container {
+  height: auto;
+  overflow: hidden;
+  font-weight: 700; 
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 28px;
+  margin-top: 92px;
+}
+.second_text_grid_container {
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+}
+.third_text_grid_container {
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+}
+/* Поиск гостиницы */
+.number_searh {
+  display: flex;
+  flex-direction: column;
+
+  height: 417px;
+}
+.number_searh_text_one {
+  font-weight: 700; 
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 91px;
+}
+.number_searh_text_two {
+  font-weight: 400; 
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 29px;
+}
+.number_searh_button {
+  text-align: center;
+  margin-top: 56px;
+}
+.number_searh_button_settings{
+  font-weight: 700; 
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #756157;
+  color: white;
+  width: 574px;
+  height: 60px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+/* Рассылка Каталог*/
+::placeholder .subscribe_catalog{
+  color: #000;
+}
+.subscribe_catalog{
+  height: 411px;
+  color: black;
+}
+.email_catalog {
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #000000;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #F2F2F2;
+}
+/* Рассылка */
+.subscribe{
+  height: 411px;
+  background: url(/img/background_sub.png);
+  color: white;
+}
+.subscribe_ {
+  font-weight: 700; 
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 94px;
+
+}
+.subscibe_text {
+  font-weight: 400; 
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 29px;
+}
+.searh_bar {
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: 200px;
+  width: 800px;
+  height: 60px;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 46px;
+  
+}
+.email {
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+  background: white;
+  color: #000000;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #F2F2F2;
+}
+.btn_bar_sett {
+  height: 60px;
+  background: #82B3D3;
+  color: white;
+  font-weight: 700; 
+  font-size: 20px;
+  line-height: 36px;
+  border-radius: 0px 10px 10px 0px;
+}
+/* .email_sett{
+  margin-top: 20px;
+  margin-left: 1px;
+} */
+
+/* Модальное окно */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.modal_window {
+  position: relative;
+  z-index: 2;
+  width: 715px;
+  height: 561px;
+  border-radius: 30px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+  background-color: #fff;
+  margin: 70px;
+}
+.modal_content{
+  margin: 70px;
+}
+.modal .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.7;
+  z-index: 0;
+}
+.modal_header {
+  text-transform: uppercase;
+  margin-top: 62px;
+  font-weight: 700; 
+  font-size: 30px;
+  line-height: 36px;
+}
+.modal_box {
+  display: grid;
+  grid-auto-flow: column;
+  height: 50px;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 40px;
+ 
+}
+.modal_box input{
+  font-weight: 400; 
+  font-size: 18px;
+  line-height: 21px;
+}
+.modal_box_people{
+  
+  display: flex;
+  column-gap: 56px;
+}
+.adults{
+  display: grid;
+  grid-auto-flow: column;
+  width: 288px;
+  margin-top: 40px;
+  
+}
+.modal_box_title {
+  align-self: center;
+  font-weight: 700; 
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.clicker{
+  width: 133px; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  margin-left: 64px;
+}
+.clicker#child{
+  width: 133px; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  margin-left: 0;
+}
+
+.clicker input{
+  width: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+.clicker a{
+  font-size: 30px;
+  opacity: 0.3;
+}
+
+
+
+.clicker input{
+  border: 0;
+  background-color: #F2F2F2;
+}
+
+#usluga-1{
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  border-radius: 50%;
+  background-color: #83B3D3;
+  color: white;
+  text-align: center;
+
+  position: relative;
+}
+#usluga-1:hover:before{
+  position: absolute;
+  color: #fff;
+  background: #000;
+  padding: 5px;
+  border-radius: 4px;
+  right: 50;
+  top: 25px;
+  width: 256px;
+
+}
+#usluga-1:hover:before {
+  content: "Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.";
+  font-weight: 400; 
+  font-size: 16px;
+  line-height: 21px;
+}
+.btn_home button{
+  width: 575px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #83B3D3;
+  font-weight: 700; 
+  font-size: 20px;
+  line-height: 36px;
+  color: white;
+  border: 0;
+  margin-top: 40px;
+}
+.calendar{
+  background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

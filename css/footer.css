@@ -1,0 +1,59 @@
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+.footer {
+    display: grid;
+    grid-auto-flow: column;
+    height: 120px;
+  }
+  .social_network {
+    display: flex;
+    column-gap: 25px;
+    align-self: center;
+    text-align: center;
+    margin-left: 70px;
+  }
+  .field_for_number {
+    align-self: center;
+    text-align: center;
+  }
+  .number {
+    font-weight: 400; 
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .htmlacademy{
+    
+  }
+  .logo_html_academy {
+    align-self: center;
+    text-align: center;
+  }
+  .social_network_vk{
+    
+  }
+  .social_network_tg {
+  }
+  .social_network_youtube {
+  }
